@@ -12,7 +12,7 @@ class _HomeScreenState extends State<HomeScreen> {
   TextEditingController textEditingController = TextEditingController();
   FlutterTts flutterTts = FlutterTts();
   void textToSpeech(String text) async {
-    await flutterTts.setLanguage("ar");
+    await flutterTts.setLanguage("en-US");
     await flutterTts.setVolume(0.5);
     await flutterTts.setSpeechRate(1);
     await flutterTts.setPitch(1);
